@@ -1,0 +1,70 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Is anyone there?", "Good day"],
+            "responses": ["Hello! Welcome to QuickServeAI, providers of restaurant management solutions. How can I assist you today?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["Goodbye! If you have more questions about our software, feel free to reach out. Have a great day!"],
+            "context_set": ""
+        },
+        {
+            "tag": "software_inquiry",
+            "patterns": ["Tell me about your software", "What software do you offer?", "Software details"],
+            "responses": ["We offer a range of software solutions including management systems, booking systems, and ordering systems specifically designed for restaurants."],
+            "context_set": ""
+        },
+        {
+            "tag": "subscription_details",
+            "patterns": ["What subscription plans do you have?", "Pricing of software", "Subscription options"],
+            "responses": ["We have various subscription plans depending on your needs. Our basic plan starts at $99/month, offering full access to our booking system. For more details, would you like to talk to a sales representative?"],
+            "context_set": ""
+        },
+        {
+            "tag": "technical_support",
+            "patterns": ["I'm facing an issue with your software", "Need technical help", "Software support"],
+            "responses": ["I'm here to help with any technical issues. Can you please describe the problem you're facing?"],
+            "context_set": ""
+        },
+        {
+            "tag": "booking_demo",
+            "patterns": ["I want to book a demo", "Can I see how your software works?", "Schedule a software demonstration"],
+            "responses": ["Certainly! I can schedule a demo for you. Which software are you interested in and what time works best for you?"],
+            "context_set": ""
+        },
+        {
+            "tag": "order_status",
+            "patterns": ["Check my order status", "Status of my software purchase", "Order update"],
+            "responses": ["To check the status of your order, please provide your order number."],
+            "context_set": ""
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["I want to give feedback", "Feedback about your software", "Comment on your services"],
+            "responses": ["We appreciate your feedback. Please let us know your thoughts or how we can improve our services."],
+            "context_set": ""
+        },
+        {
+            "tag": "custom_solution",
+            "patterns": ["Can you customize the software?", "Need a tailored solution", "Custom software for my restaurant"],
+            "responses": ["We specialize in custom solutions. Let's discuss your specific requirements so we can tailor our software to your needs."],
+            "context_set": ""
+        },
+        {
+            "tag": "promotion",
+            "patterns": ["Current software deals", "Promotions on your products", "Discounts on software"],
+            "responses": ["We currently have promotional offers for new subscribers, including a 10% discount for the first six months. Would you like more details?"],
+            "context_set": ""
+        },
+        {
+            "tag": "contact_information",
+            "patterns": ["How can I contact sales?", "Need to talk to customer service", "Contact details"],
+            "responses": ["You can reach our sales team at 555-0100 or email sales@quickserveai.com. Our customer service team is always here to help."],
+            "context_set": ""
+        }
+    ]
+}
