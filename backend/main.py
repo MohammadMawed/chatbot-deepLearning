@@ -2,9 +2,11 @@ from flask import Flask, request, jsonify
 import json
 from data_preparation import load_data
 from model import load_model
-from chat_interaction import get_response  # Import the modified function
+from flask_cors import CORS
+from chat_interaction import get_response 
 
 app = Flask(__name__)
+CORS(app)
 
 # Load the model and other necessary data
 data_file = 'intents.json'
