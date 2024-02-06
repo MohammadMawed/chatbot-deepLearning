@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.metrics import precision_score, recall_score, f1_score
 from utilities import bag_of_words
 from data_preparation import load_data
-from model import load_model  # Ensure this can load both the original and retrained models
+from model import load_model 
 
 def evaluate_model(model, words, labels, intents, test_data):
     true_labels = []

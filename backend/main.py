@@ -9,7 +9,6 @@ from chat_interaction import get_response
 app = Flask(__name__)
 CORS(app)
 
-# Load the model and other necessary data
 data_file = 'intents.json'
 pickle_file = 'data.pickle'
 model_file = 'model.tflearn'
@@ -30,9 +29,9 @@ def chat_endpoint():
 
 @app.route('/log_interaction', methods=['POST'])
 def log_interaction():
-    feedback_data = request.json  # Get the structured feedback data from the request
+    feedback_data = request.json  
     
-    # Log the received data for debugging
+
     print("Received feedback data:", feedback_data)
 
     # Check if all required fields are in the feedback_data

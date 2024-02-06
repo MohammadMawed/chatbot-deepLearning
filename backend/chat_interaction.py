@@ -12,5 +12,5 @@ def get_response(model, words, labels, data, user_input):
             responses = tg['responses']
             return random.choice(responses)
 
-    return "I didn't understand that."  # Fallback response
+    return "I didn't understand that." 
 

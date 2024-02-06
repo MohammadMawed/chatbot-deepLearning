@@ -66,7 +66,6 @@ def save_processed_data(processed_data, output_file_path):
 
 
 
-# Path to your feedback logs and where to save processed data
 feedback_logs_path = 'feedback_logs.json'
 processed_data_path = 'processed_feedback_data.json'
 
