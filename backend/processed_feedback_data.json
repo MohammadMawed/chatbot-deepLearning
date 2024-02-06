@@ -1,0 +1,91 @@
+[
+    {
+        "userInput": "Hello",
+        "botResponse": "Hi there!",
+        "feedback": "positive"
+    },
+    {
+        "userInput": "hi",
+        "botResponse": "hi",
+        "feedback": "positive"
+    },
+    {
+        "userInput": "hi",
+        "botResponse": "hi",
+        "feedback": "positive"
+    },
+    {
+        "userInput": "hello",
+        "botResponse": "hi",
+        "feedback": "positive",
+        "timestamp": "2024-02-05T13:41:01.804490",
+        "userId": "12345"
+    },
+    {
+        "userInput": "",
+        "botResponse": "good thank ask",
+        "feedback": "positive",
+        "timestamp": "2024-02-05T13:41:16.623290",
+        "userId": "12345"
+    },
+    {
+        "userInput": "hello",
+        "botResponse": "hi",
+        "feedback": "positive",
+        "timestamp": "2024-02-05T13:41:01.804490",
+        "userId": "12345"
+    },
+    {
+        "userInput": "",
+        "botResponse": "good thank ask",
+        "feedback": "positive",
+        "timestamp": "2024-02-05T13:41:16.623290",
+        "userId": "12345"
+    },
+    {
+        "userInput": "price good",
+        "botResponse": "special custom solut let discuss specif requir tailor softwar need",
+        "feedback": "positive",
+        "context": {},
+        "timestamp": "2024-02-05T23:48:03.958240",
+        "userId": "12345"
+    },
+    {
+        "userInput": "hello",
+        "botResponse": "hi",
+        "feedback": "positive",
+        "timestamp": "2024-02-05T13:41:01.804490",
+        "userId": "12345"
+    },
+    {
+        "userInput": "",
+        "botResponse": "good thank ask",
+        "feedback": "positive",
+        "timestamp": "2024-02-05T13:41:16.623290",
+        "userId": "12345"
+    },
+    {
+        "userInput": "price good",
+        "botResponse": "special custom solut let discuss specif requir tailor softwar need",
+        "feedback": "positive",
+        "context": {},
+        "timestamp": "2024-02-05T23:48:03.958240",
+        "userId": "12345"
+    },
+    {
+        "userInput": "hello",
+        "botResponse": "hello welcom quickserveai provid restaur manag solut assist today",
+        "feedback": "positive",
+        "context": {},
+        "timestamp": "2024-02-06T11:49:09.533232",
+        "userId": "12345"
+    },
+    {
+        "userInput": "hello",
+        "botResponse": "hello welcom quickserveai provid restaur manag solut assist today",
+        "feedback": "positive",
+        "context": {},
+        "timestamp": "2024-02-06T11:49:12.648557",
+        "userId": "12345"
+    }
+]

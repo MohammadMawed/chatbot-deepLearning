@@ -1,10 +1,9 @@
 import nltk
 import json
 import pickle
-import random
 import numpy as np
-from utilities import stemmer  # Import stemmer from utilities
-
+import random
+from utilities import stemmer
 
 def load_data(data_file, pickle_file):
     try:
@@ -23,7 +22,7 @@ def load_data(data_file, pickle_file):
                 if intent['tag'] not in labels:
                     labels.append(intent['tag'])
     
-        words = [stemmer.stem(w.lower()) for w in words if w != '?']    
+        words = [stemmer.stem(w.lower()) for w in words if w != '?']
         words = sorted(list(set(words)))
         labels = sorted(labels)
 

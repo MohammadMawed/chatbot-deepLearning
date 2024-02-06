@@ -5,14 +5,12 @@
     padding: 20px;
 }
 
-
 .chat-box {
     min-width: 80%;
     max-width: 1000px;
     height: 500px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    margin: auto;
     padding: 20px;
     background-color: #282c34;
     overflow-y: auto;
@@ -22,7 +20,6 @@
     justify-content: flex-start; 
     align-items: flex-start; 
 }
-
 .chat-message {
     padding: 10px 20px;
     border-radius: 20px;
@@ -31,13 +28,13 @@
     white-space: pre-wrap;
     display: inline-block;
     color: #fff;
-    min-width: 50%; 
     max-width: 80%; 
 }
 
 .chat-message.bot {
     background-color: #05a7f3;
     align-self: flex-start; 
+    text-align: left;
 }
 
 .chat-message.user {
@@ -47,24 +44,39 @@
 }
 
 .input-container {
-    width: 90%;
+    
     max-width: 1000px;
     margin: 0 auto; 
 
 }
 
 .chat-input {
-    flex-grow: 1;
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 20px;
     margin-right: 10px;
-    color: #333;
-    background-color: #f8f8f8;
+    color: #fff;
+    background-color: #282c34;
+    font-size: 18px; 
+    outline: none; /* Remove default focus outline */
+}
+
+/* Change color of placeholder text */
+.chat-input::placeholder {
+    color: white;
+}
+
+/* Add custom focus outline */
+.chat-input:focus {
+    border: 2px solid white;
 }
 
 .send-button {
-    padding: 10px 15px;
+    width: 50px;
+    height: 50px;
     background-color: #0a7642;
     color: white;
     font-weight: bold;
@@ -75,5 +87,22 @@
 }
 
 .send-button:hover {
-    background-color: #008ba3;
+    background-color: #0da270;
 }
+.feedback-buttons {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.feedback-buttons button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #05a7f3;
+}
+
+.feedback-buttons button:hover {
+    color: #065c68;
+}
+

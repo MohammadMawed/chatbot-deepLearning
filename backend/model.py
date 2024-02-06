@@ -26,3 +26,9 @@ def load_model(model_file, train_x, train_y):
     except:
         model = build_and_train_model(train_x, train_y, model_file)
     return model
+
+def retrain_model(model, train_x, train_y, model_file, n_epoch=1000):
+    """Retrain the model with new data."""
+    model.fit(train_x, train_y, n_epoch=n_epoch, batch_size=8, show_metric=True)
+    model.save(model_file)
+    return model

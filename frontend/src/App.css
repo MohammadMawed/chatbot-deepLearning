@@ -17,10 +17,8 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Horizontally center children */
-  justify-content: center; /* Vertically center children */
+  display: grid;
+  place-items: center; /* Horizontally and vertically center children */
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;

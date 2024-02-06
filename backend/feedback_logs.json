@@ -1,0 +1,40 @@
+[
+    {
+        "userInput": "Hello",
+        "botResponse": "Hi there!",
+        "feedback": "positive",
+        "timestamp": "2024-02-05T13:41:01.804490",
+        "userId": "12345"
+    },
+    {
+        "userInput": "How are you?",
+        "botResponse": "I'm good, thank you for asking!",
+        "feedback": "positive",
+        "timestamp": "2024-02-05T13:41:16.623290",
+        "userId": "12345"
+    },
+    {
+        "userInput": "The prices are good ",
+        "botResponse": "We specialize in custom solutions. Let's discuss your specific requirements so we can tailor our software to your needs.",
+        "feedback": "positive",
+        "context": {},
+        "timestamp": "2024-02-05T23:48:03.958240",
+        "userId": "12345"
+    },
+    {
+        "userInput": "Hello ",
+        "botResponse": "Hello! Welcome to QuickServeAI, providers of restaurant management solutions. How can I assist you today?",
+        "feedback": "positive",
+        "context": {},
+        "timestamp": "2024-02-06T11:49:09.533232",
+        "userId": "12345"
+    },
+    {
+        "userInput": "Hello ",
+        "botResponse": "Hello! Welcome to QuickServeAI, providers of restaurant management solutions. How can I assist you today?",
+        "feedback": "positive",
+        "context": {},
+        "timestamp": "2024-02-06T11:49:12.648557",
+        "userId": "12345"
+    }
+]

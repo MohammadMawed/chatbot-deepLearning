@@ -1,2 +1,2 @@
-model_checkpoint_path: "/Users/mohammadmawed/Documents/projects/python/chatbot-deepLearning/model/model.tflearn"
-all_model_checkpoint_paths: "/Users/mohammadmawed/Documents/projects/python/chatbot-deepLearning/model/model.tflearn"
+model_checkpoint_path: "/Users/mohammadmawed/Documents/projects/python/chatbot-deepLearning/backend/updated_model.tflearn"
+all_model_checkpoint_paths: "/Users/mohammadmawed/Documents/projects/python/chatbot-deepLearning/backend/updated_model.tflearn"
