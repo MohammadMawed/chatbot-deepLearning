@@ -23,7 +23,6 @@ How It Works
     
 7.  **Continuous Learning**: The chatbot can be retrained with new data, including feedback from user interactions, to improve its understanding and performance over time.
     
-License
--------
+
 
 
